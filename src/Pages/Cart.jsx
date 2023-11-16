@@ -45,13 +45,13 @@ import {
   Link,
   Badge,
   useColorModeValue,
+  Img,
 } from '@chakra-ui/react'
 import { useEffect, useState } from 'react'
 import { useDispatch, useSelector } from 'react-redux'
 import { useNavigate } from 'react-router-dom'
 import { deleteCart, deletePayment, getCart, patchCart, postPayment } from '../Redux/Data/action'
-import QRCode from 'react-qr-code'
-
+import QRCode from 'qrcode'
 export default function Cart() {
 
 
@@ -88,21 +88,27 @@ const handleAdd=(quant,id)=>{
 const handleDelete=(id)=>{
   dispatch(deleteCart(id))
 }
+const total=cartData.reduce((acc,item,index)=>{
+  return acc+item.price*item.quant
+},0)
+
+console.log("total",total)
 
 const handleBuy=()=>{
-  let qrData=cartData.map((item)=>{
-   return {item}
-})
+//   let qrData=cartData.map((item)=>{
+//    return {item}
+// })
 
-QRcode.toDataURL(qrData)
-.then(url=>{
-  setQrcodeImage(url)
-})
-.catch(err=>{
-  console.log(err)
-})
+// QRCode.toDataURL(total)
+// .then(url=>{
+//   setQrCodeImage(url)
+// })
+// .catch(err=>{
+//   console.log(err)
+// })
 
-}
+
+
 
 
 }
@@ -116,8 +122,20 @@ useEffect(()=>{
   )) 
 },[postPayment])
 
+useEffect(()=>{
+
+  QRCode.toDataURL(`${total}`)
+.then(url => {
+  setQrCodeImage(url)
+  console.log("zzzzzzzzz",url)
+})
+.catch(err => {
+  console.error(err)
+})
+},[])
 
 
+console.log("qrCodeImage",qrCodeImage)
 
   return (
     <>
@@ -208,8 +226,10 @@ useEffect(()=>{
       </>
     ))}
 
+    <Text>Total Amount : {total}</Text>
+
     <Button onClick={handleBuy}>Buy now</Button>
-    
+    <Img src={qrCodeImage}/>
 
 
     </>

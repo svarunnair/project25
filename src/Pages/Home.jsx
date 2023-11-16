@@ -78,6 +78,7 @@ useEffect(()=>{
 
 
 const handleCart=(item)=>{
+ 
     item.quant=1
     dispatch(postCart(item))
 }
