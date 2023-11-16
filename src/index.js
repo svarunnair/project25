@@ -7,15 +7,16 @@ import { BrowserRouter } from 'react-router-dom';
 import { Provider } from 'react-redux';
 import { ThemeProvider } from '@mui/material';
 import { store } from './Redux/store';
+import { ChakraProvider } from '@chakra-ui/react';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
   <BrowserRouter>
   <Provider store={store}>
-    <ThemeProvider theme={theme}>
+   <ChakraProvider>
     <App />
-    </ThemeProvider>
+    </ChakraProvider>
     </Provider>
     </BrowserRouter>
   </React.StrictMode>

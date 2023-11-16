@@ -1,11 +1,12 @@
 import { applyMiddleware, combineReducers, legacy_createStore } from "redux";
 import thunk from "redux-thunk";
+import { dataReducer } from "./Data/reducer";
 
 
 
 
 const root=combineReducers({
-    data:'',
+    data:dataReducer,
     auth:""
 })
 

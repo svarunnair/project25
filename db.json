@@ -1,0 +1,148 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "name": "Blue Velvet Sofa",
+      "description": "Luxurious blue velvet sofa with comfortable cushions.",
+      "price": 599.99,
+      "image": "https://blog.tapptic.com/wp-content/uploads/2020/02/what-can-AI-generate-today-1536x960.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Wooden Coffee Table",
+      "description": "Elegant wooden coffee table with a sleek design.",
+      "price": 129.99,
+      "image": "https://blog.tapptic.com/wp-content/uploads/2020/02/what-can-AI-generate-today-1536x960.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Smart LED TV",
+      "description": "55-inch smart LED TV with 4K resolution and built-in apps.",
+      "price": 799.99,
+      "image": "https://blog.tapptic.com/wp-content/uploads/2020/02/what-can-AI-generate-today-1536x960.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Modern Desk Chair",
+      "description": "Comfortable and stylish desk chair for your home office.",
+      "price": 149.99,
+      "image": "https://blog.tapptic.com/wp-content/uploads/2020/02/what-can-AI-generate-today-1536x960.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Stainless Steel Refrigerator",
+      "description": "Large capacity stainless steel refrigerator with smart features.",
+      "price": 1299.99,
+      "image": "https://blog.tapptic.com/wp-content/uploads/2020/02/what-can-AI-generate-today-1536x960.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Wireless Noise-Canceling Headphones",
+      "description": "High-quality wireless headphones with active noise-canceling technology.",
+      "price": 199.99,
+      "image": "https://blog.tapptic.com/wp-content/uploads/2020/02/what-can-AI-generate-today-1536x960.jpg"
+    },
+    {
+      "id": 7,
+      "name": "Cotton Bed Sheets",
+      "description": "Soft and breathable cotton bed sheets for a comfortable sleep.",
+      "price": 49.99,
+      "image": "https://blog.tapptic.com/wp-content/uploads/2020/02/what-can-AI-generate-today-1536x960.jpg"
+    },
+    {
+      "id": 8,
+      "name": "Outdoor Gas Grill",
+      "description": "Stainless steel gas grill for outdoor cooking and entertaining.",
+      "price": 299.99,
+      "image": "https://blog.tapptic.com/wp-content/uploads/2020/02/what-can-AI-generate-today-1536x960.jpg"
+    },
+    {
+      "id": 9,
+      "name": "Designer Pendant Light",
+      "description": "Unique designer pendant light to add a modern touch to your space.",
+      "price": 79.99,
+      "image": "https://blog.tapptic.com/wp-content/uploads/2020/02/what-can-AI-generate-today-1536x960.jpg"
+    },
+    {
+      "id": 10,
+      "name": "Digital Camera Kit",
+      "description": "Professional digital camera kit with multiple lenses and accessories.",
+      "price": 899.99,
+      "image": "https://blog.tapptic.com/wp-content/uploads/2020/02/what-can-AI-generate-today-1536x960.jpg"
+    },
+    {
+      "id": 11,
+      "name": "Vintage Leather Backpack",
+      "description": "Stylish vintage leather backpack for everyday use.",
+      "price": 129.99,
+      "image": "https://blog.tapptic.com/wp-content/uploads/2020/02/what-can-AI-generate-today-1536x960.jpg"
+    },
+    {
+      "id": 12,
+      "name": "Smart Thermostat",
+      "description": "Energy-efficient smart thermostat for home climate control.",
+      "price": 79.99,
+      "image": "https://blog.tapptic.com/wp-content/uploads/2020/02/what-can-AI-generate-today-1536x960.jpg"
+    },
+    {
+      "id": 13,
+      "name": "Glass Dining Table Set",
+      "description": "Modern glass dining table set with comfortable chairs.",
+      "price": 499.99,
+      "image": "https://blog.tapptic.com/wp-content/uploads/2020/02/what-can-AI-generate-today-1536x960.jpg"
+    },
+    {
+      "id": 14,
+      "name": "Fitness Tracker Watch",
+      "description": "Waterproof fitness tracker watch with heart rate monitoring.",
+      "price": 69.99,
+      "image": "https://blog.tapptic.com/wp-content/uploads/2020/02/what-can-AI-generate-today-1536x960.jpg"
+    },
+    {
+      "id": 15,
+      "name": "Contemporary Wall Art",
+      "description": "Abstract contemporary wall art to enhance your living space.",
+      "price": 89.99,
+      "image": "https://blog.tapptic.com/wp-content/uploads/2020/02/what-can-AI-generate-today-1536x960.jpg"
+    },
+    {
+      "id": 16,
+      "name": "Robotic Vacuum Cleaner",
+      "description": "Smart robotic vacuum cleaner for hassle-free cleaning.",
+      "price": 249.99,
+      "image": "https://blog.tapptic.com/wp-content/uploads/2020/02/what-can-AI-generate-today-1536x960.jpg"
+    },
+    {
+      "id": 17,
+      "name": "Portable Bluetooth Speaker",
+      "description": "Compact and portable Bluetooth speaker for on-the-go music.",
+      "price": 39.99,
+      "image": "https://blog.tapptic.com/wp-content/uploads/2020/02/what-can-AI-generate-today-1536x960.jpg"
+    },
+    {
+      "id": 18,
+      "name": "Kitchen Knife Set",
+      "description": "High-quality kitchen knife set for precise and efficient cutting.",
+      "price": 89.99,
+      "image": "https://blog.tapptic.com/wp-content/uploads/2020/02/what-can-AI-generate-today-1536x960.jpg"
+    },
+    {
+      "id": 19,
+      "name": "Luxury Bath Towel Set",
+      "description": "Plush and absorbent luxury bath towel set for a spa-like experience.",
+      "price": 59.99,
+      "image": "https://blog.tapptic.com/wp-content/uploads/2020/02/what-can-AI-generate-today-1536x960.jpg"
+    },
+    {
+      "id": 20,
+      "name": "Gaming Console Bundle",
+      "description": "Gaming console bundle with the latest games and accessories.",
+      "price": 499.99,
+      "image": "https://blog.tapptic.com/wp-content/uploads/2020/02/what-can-AI-generate-today-1536x960.jpg"
+    }
+  ],
+  "cart": [],
+  "payment": [
+   
+  ]
+}
